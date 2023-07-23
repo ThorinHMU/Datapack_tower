@@ -34,7 +34,7 @@ execute as @e[tag=f6, type=minecraft:creeper, tag=N4] at @s run tp @s ^ ^ ^0.1 f
 execute as @e[tag=f7, type=minecraft:creeper, tag=N4] at @s run tp @s ^ ^ ^0.1 facing entity @e[tag=7,limit=1]
 execute as @e[tag=f8, type=minecraft:creeper, tag=N4] at @s run tp @s ^ ^ ^0.1 facing entity @e[tag=8,limit=1]
 
-execute at @e[type=minecraft:armor_stand, tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:creeper, tag=N1] run function commandes:kill/creeper/kill_c_n1
-execute at @e[type=minecraft:armor_stand, tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:creeper, tag=N2] run function commandes:kill/creeper/kill_c_n2
-execute at @e[type=minecraft:armor_stand, tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:creeper, tag=N3] run function commandes:kill/creeper/kill_c_n3
-execute at @e[type=minecraft:armor_stand, tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:creeper, tag=N4] run function commandes:kill/creeper/kill_c_n4
+execute at @e[tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:creeper, tag=N1] run function commandes:kill/creeper/kill_c_n1
+execute at @e[tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:creeper, tag=N2] run function commandes:kill/creeper/kill_c_n2
+execute at @e[tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:creeper, tag=N3] run function commandes:kill/creeper/kill_c_n3
+execute at @e[tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:creeper, tag=N4] run function commandes:kill/creeper/kill_c_n4

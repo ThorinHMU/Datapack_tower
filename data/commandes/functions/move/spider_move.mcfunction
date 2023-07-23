@@ -34,7 +34,7 @@ execute as @e[tag=f6, type=minecraft:spider, tag=N4] at @s run tp @s ^ ^ ^0.1 fa
 execute as @e[tag=f7, type=minecraft:spider, tag=N4] at @s run tp @s ^ ^ ^0.1 facing entity @e[tag=7,limit=1]
 execute as @e[tag=f8, type=minecraft:spider, tag=N4] at @s run tp @s ^ ^ ^0.1 facing entity @e[tag=8,limit=1]
 
-execute at @e[type=minecraft:armor_stand, tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:spider, tag=N1] run function commandes:kill/spider/kill_s_n1
-execute at @e[type=minecraft:armor_stand, tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:spider, tag=N2] run function commandes:kill/spider/kill_s_n2
-execute at @e[type=minecraft:armor_stand, tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:spider, tag=N3] run function commandes:kill/spider/kill_s_n3
-execute at @e[type=minecraft:armor_stand, tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:spider, tag=N4] run function commandes:kill/spider/kill_s_n4
+execute at @e[tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:spider, tag=N1] run function commandes:kill/spider/kill_s_n1
+execute at @e[tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:spider, tag=N2] run function commandes:kill/spider/kill_s_n2
+execute at @e[tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:spider, tag=N3] run function commandes:kill/spider/kill_s_n3
+execute at @e[tag=8] if entity @e[tag=f8, distance=..1, limit=1, type=minecraft:spider, tag=N4] run function commandes:kill/spider/kill_s_n4
