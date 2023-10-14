@@ -1,0 +1,9 @@
+execute as @e[type=minecraft:interaction,tag=archer,nbt={interaction:{}}, tag=menu_select] at @s as @e[tag=tower_l, sort=nearest, limit=1] at @s run function cmd:tower/create_tower {"tour":"tower_archer_n1"}
+execute as @e[type=minecraft:interaction,tag=lave,nbt={interaction:{}}, tag=menu_select] at @s as @e[tag=tower_l, sort=nearest, limit=1] at @s run function cmd:tower/create_tower {"tour":"tower_lave_n1"}
+execute as @e[type=minecraft:interaction,tag=tnt,nbt={interaction:{}}, tag=menu_select] at @s as @e[tag=tower_l, sort=nearest, limit=1] at @s run function cmd:tower/create_tower {"tour":"tower_tnt_n1"}
+execute as @e[type=minecraft:interaction,tag=neige,nbt={interaction:{}}, tag=menu_select] at @s as @e[tag=tower_l, sort=nearest, limit=1] at @s run function cmd:tower/create_tower {"tour":"tower_neige_n1"}
+execute as @e[type=minecraft:interaction,tag=poison,nbt={interaction:{}}, tag=menu_select] at @s as @e[tag=tower_l, sort=nearest, limit=1] at @s run function cmd:tower/create_tower {"tour":"tower_poison_n1"}
+execute as @e[type=minecraft:interaction,tag=warden,nbt={interaction:{}}, tag=menu_select] at @s as @e[tag=tower_l, sort=nearest, limit=1] at @s run function cmd:tower/create_tower {"tour":"tower_warden_n1"}
+execute as @e[type=minecraft:interaction,tag=cristal,nbt={interaction:{}}, tag=menu_Stower] at @s as @e[tag=Stower_l, sort=nearest, limit=1] at @s run function cmd:tower/create_stower {"tour":"stower_crystal"}
+execute as @e[type=minecraft:interaction,tag=iron,nbt={interaction:{}}, tag=menu_Stower] at @s as @e[tag=Stower_l, sort=nearest, limit=1] at @s run function cmd:tower/create_stower {"tour":"stower_iron"}
+execute as @e[type=minecraft:interaction,tag=chorus,nbt={interaction:{}}, tag=menu_Stower] at @s as @e[tag=Stower_l, sort=nearest, limit=1] at @s run function cmd:tower/create_stower {"tour":"stower_end"}

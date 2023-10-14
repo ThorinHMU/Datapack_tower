@@ -1,0 +1,1 @@
+$execute at @e[tag=hangard,limit=1,sort=nearest] summon $(mob) run function cmd:spawn/spawn_mobs_s {"lvl":"N$(lvl)","armor":$(armor),"item":$(item),"vie":$(vie), "vitesse":$(vitesse)}

@@ -1,0 +1,1 @@
+execute as @e[tag=mob] at @s run function cmd:move/move_s

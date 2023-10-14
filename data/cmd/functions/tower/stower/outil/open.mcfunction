@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:interaction, tag=Stower, nbt={interaction:{}}, tag=!close] at @s run function cmd:tower/stower/outil/open_s
