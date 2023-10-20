@@ -1,0 +1,3 @@
+$execute if score @s Timer matches ..1 if entity @e[tag=mob,distance=..$(rayon)] summon minecraft:marker at @e[tag=mob,limit=1,distance=..$(rayon)] run scoreboard players operation @s Timer = @e[limit=1,sort=nearest] Timer
+scoreboard players operation @e[tag=!fleche,type=minecraft:marker,sort=nearest,limit=1] tower_degat = @s tower_degat
+$execute if score @s Timer matches $(cadence).. run scoreboard players reset @s Timer
