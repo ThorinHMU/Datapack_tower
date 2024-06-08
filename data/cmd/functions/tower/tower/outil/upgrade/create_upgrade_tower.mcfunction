@@ -1,2 +1,4 @@
-$execute as @e[scores={ID=$(ID)},tag=place] if entity @s[tag=n1] run function cmd:tower/tower/outil/upgrade/create_upgrade_tower_s {"ID":$(ID), "lvl": "n2"}
-$execute as @e[scores={ID=$(ID)},tag=place] if entity @s[tag=n2] run function cmd:tower/tower/outil/upgrade/create_upgrade_tower_s {"ID":$(ID), "lvl": "n3"}
+$execute as @e[tag=place,scores={ID=$(ID)}] at @s run fill ~-1 ~ ~-1 ~1 ~15 ~1 light
+$kill @e[scores={ID=$(ID)},tag=outil]
+$kill @e[scores={ID=$(ID)},tag=tower]
+$place template minecraft:$(lvl) ~-1 ~ ~-1
