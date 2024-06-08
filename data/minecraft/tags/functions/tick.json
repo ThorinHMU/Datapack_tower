@@ -1,2 +1,2 @@
 {"values":["#cmd:move", "#cmd:towers", "cmd:spawn/interaction/iter",
-  "cmd:tower/gest_tower", "cmd:tower/interaction_select/main", "#cmd:outil"]}
+  "cmd:tower/gest_tower", "cmd:tower/interaction_select/main", "#cmd:outil", "cmd:autre/main"]}

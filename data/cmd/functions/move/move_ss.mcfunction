@@ -6,5 +6,5 @@ $execute if entity @s[tag=f5] run tp @s ^ ^ ^$(vitesse) facing entity @e[type=ma
 $execute if entity @s[tag=f6] run tp @s ^ ^ ^$(vitesse) facing entity @e[type=marker,tag=6, limit=1,sort=nearest]
 $execute if entity @s[tag=f7] run tp @s ^ ^ ^$(vitesse) facing entity @e[type=marker,tag=7, limit=1,sort=nearest]
 $execute if entity @s[tag=f8] run tp @s ^ ^ ^$(vitesse) facing entity @e[type=marker,tag=8, limit=1,sort=nearest]
-execute if entity @e[tag=8, distance=..0.4,type=marker] run scoreboard players remove Vie nbr 10
-execute if entity @e[tag=8, distance=..0.4,type=marker] run kill @s
+$execute if entity @e[tag=8, distance=..$(vitesse),type=marker] run scoreboard players remove Vie nbr 10
+$execute if entity @e[tag=8, distance=..$(vitesse),type=marker] run kill @s

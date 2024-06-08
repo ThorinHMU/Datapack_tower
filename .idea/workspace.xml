@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7841761c-0263-4e9d-aa58-7d743885f4d6" name="Changes" comment="test say 2">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cmd/functions/test/test2.mcfunction" beforeDir="false" afterPath="$PROJECT_DIR$/data/cmd/functions/test/test2.mcfunction" afterDir="false" />
+    <list default="true" id="7841761c-0263-4e9d-aa58-7d743885f4d6" name="Changes" comment="test say 5">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cmd/functions/test/test2.mcfunction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cmd/functions/tower/tower/outil/close_s.mcfunction" beforeDir="false" afterPath="$PROJECT_DIR$/data/cmd/functions/tower/tower/outil/close_s.mcfunction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cmd/functions/tower/tower/outil/close_ss.mcfunction" beforeDir="false" afterPath="$PROJECT_DIR$/data/cmd/functions/tower/tower/outil/close_ss.mcfunction" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697904327744</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test say 5">
+      <option name="closed" value="true" />
+      <created>1697924874303</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697924874303</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +186,7 @@
     <MESSAGE value="regle problemefleche degat 1 par 1" />
     <MESSAGE value="avancé sur delete tower avec id" />
     <MESSAGE value="test say 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test say 2" />
+    <MESSAGE value="test say 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="test say 5" />
   </component>
 </project>

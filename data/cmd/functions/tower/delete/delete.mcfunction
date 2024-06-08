@@ -1,2 +1,2 @@
-execute as @e[type=minecraft:interaction,limit=1,sort=nearest,tag=tour] at @s if data entity @e[limit=1,sort=nearest] {Tags:["tower"]} run function cmd:tower/delete/tower_delete
-execute as @e[type=minecraft:interaction,limit=1,sort=nearest,tag=tour] at @s if data entity @e[limit=1,sort=nearest] {Tags:["Stower"]} run function cmd:tower/delete/stower_delete
+$execute if data entity @e[limit=1,tag=tour, scores={ID=$(id)}] {Tags:["Stower"]} run function cmd:tower/delete/stower_delete with storage outil
+$execute if data entity @e[limit=1,tag=tour, scores={ID=$(id)}] {Tags:["tower"]} run function cmd:tower/delete/tower_delete with storage outil

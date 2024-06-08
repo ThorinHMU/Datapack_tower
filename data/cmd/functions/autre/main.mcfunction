@@ -1,0 +1,1 @@
+execute store result bossbar minecraft:vie value run scoreboard players get Vie nbr
