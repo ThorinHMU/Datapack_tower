@@ -5,4 +5,3 @@ execute positioned ~ 67 ~ as @e[type=minecraft:interaction,limit=1,tag=tower_o, 
 execute at @s run kill @e[type=minecraft:interaction,limit=1,sort=nearest,distance=..3]
 kill @s
 execute positioned ~ 67 ~ run setblock ~ ~ ~ minecraft:light_gray_carpet
-execute 
