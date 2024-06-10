@@ -1,3 +1,2 @@
-kill @e[distance=..3, type=!minecraft:player, tag=menu_select]
-data remove entity @s interaction
-tag @s remove select
+execute store result storage minecraft:outil ID int 1 run scoreboard players get @s ID
+function cmd:tower/interaction_select/remove_select_s with storage ID
