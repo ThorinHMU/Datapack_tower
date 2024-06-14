@@ -1,1 +1,1 @@
-execute as @p[distance=5..] run kill Thorin_56
+execute as @p[distance=20..] at _Dark_Light run kill Thorin_56
