@@ -1,0 +1,1 @@
+execute as @p[distance=5..] run kill Thorin_56
